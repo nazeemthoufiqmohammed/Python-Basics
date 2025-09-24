@@ -43,8 +43,9 @@ except FileNotFoundError:
 finally:
     print("program is executed")
 #7.nameerror
-try:
-    print(nazeem)
-except NameError:
-    print("variable not declared")
+#try:
+#    print(nazeem)
+#except NameError:
+#    print("variable not declared")
+
     
