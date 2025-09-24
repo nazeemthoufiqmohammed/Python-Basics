@@ -1,0 +1,20 @@
+#file handling
+#types of read
+#1 read()
+file = open("file11.txt","r")
+cont = file.read()
+print(cont)
+file.close()
+#2 readline()
+file = open("file11.txt","r")
+cont = file.readline()
+cont1 = file.readline()
+print(cont)
+print(cont1)
+file.close()
+#3 readlines()
+file = open("file11.txt","r")
+cont2 = file.readlines()
+print(cont2)
+file.close()
+
